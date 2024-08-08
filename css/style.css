@@ -253,14 +253,9 @@ html {
   font-size: 1.1111111111vw;
   height: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 1439px) {
   html {
-    font-size: 2.0833333333vw;
-  }
-}
-@media (max-width: 375px) {
-  html {
-    font-size: 4.2666666667vw;
+    font-size: 100%;
   }
 }
 
@@ -304,6 +299,11 @@ body {
   background-color: #1F1F1F;
   padding: 2.5rem;
   border-radius: 0.75rem;
+}
+@media (max-width: 490px) {
+  .frame {
+    padding: 1.5rem;
+  }
 }
 
 .avatar {
@@ -365,6 +365,16 @@ body {
   font-size: 0.875rem;
   font-weight: 700;
   color: inherit;
+}
+@media (max-width: 768px) {
+  .social-links__item a {
+    width: 23.5rem;
+  }
+}
+@media (max-width: 490px) {
+  .social-links__item a {
+    width: 17.4375rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
